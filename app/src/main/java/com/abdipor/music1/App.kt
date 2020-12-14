@@ -37,7 +37,7 @@ class App : MultiDexApplication() {
         // default theme
         if (!ThemeStore.isConfigured(this, 3)) {
             ThemeStore.editTheme(this)
-                .accentColorRes(R.color.md_deep_purple_A200)
+                .accentColorRes(R.color.md_blue_A400)
                 .coloredNavigationBar(true)
                 .commit()
         }
@@ -83,9 +83,9 @@ class App : MultiDexApplication() {
         }
 
         fun isProVersion(): Boolean {
-            return BuildConfig.DEBUG || instance?.billingProcessor!!.isPurchased(
-                PRO_VERSION_PRODUCT_ID
-            )
+//            return BuildConfig.DEBUG || instance?.billingProcessor!!.isPurchased(
+//                PRO_VERSION_PRODUCT_ID )
+            return true
         }
 
         lateinit var musicComponent: MusicComponent

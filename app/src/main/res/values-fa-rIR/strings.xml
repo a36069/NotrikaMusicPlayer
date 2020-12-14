@@ -59,7 +59,7 @@
     <string name="album_or_artist_empty">عنوان یا هنرمند خالی است.</string>
     <string name="albums">آلبوم ها</string>
     <string name="always">همیشه</string>
-    <string name="app_share">سلام این پخش کننده جالب موسیقی را در: </string>
+    <string name="app_share">سلام این پخش کننده جالب موسیقی را در: https://play.google.com/store/apps/details?id=%s</string>
     <string name="app_shortcut_shuffle_all_short">بر زدن</string>
     <string name="app_shortcut_top_tracks_short">برترین آهنگ ها</string>
     <string name="app_widget_big_name">موزیک پلیر نوتریکا - بزرگ</string>

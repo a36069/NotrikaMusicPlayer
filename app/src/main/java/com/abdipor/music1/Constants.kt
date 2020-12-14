@@ -27,7 +27,7 @@ object Constants {
     const val USER_BANNER = "banner.jpg"
     const val APP_INSTAGRAM_LINK = "https://www.instagram.com/abdipor_developer/"
     const val APP_TELEGRAM_LINK = "https://t.me/m36069/"
-    const val APP_TWITTER_LINK = "https://twitter.com/m36069"
+    const val APP_TWITTER_LINK = "https://twitter.com/mohammadabdiDev"
     const val FAQ_LINK = "https://github.com/a36069/NotrikaMusicPlayer/blob/master/FAQ.md"
     const val MEDIUM = "https://mohammadabdipour.medium.com/about/"
 
