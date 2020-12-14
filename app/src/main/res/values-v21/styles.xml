@@ -1,0 +1,37 @@
+<resources>
+
+    <style name="Theme.NotrikaMusic" parent="Theme.NotrikaMusic.Base">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+        <item name="android:textViewStyle">@style/TextViewStyleIm</item>
+    </style>
+
+    <style name="Theme.NotrikaMusic.Light" parent="Theme.NotrikaMusic.Base.Light">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+        <item name="android:textViewStyle">@style/TextViewStyleIm</item>
+    </style>
+
+    <style name="Theme.NotrikaMusic.Black" parent="Theme.NotrikaMusic.Base.Black">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+        <item name="android:textViewStyle">@style/TextViewStyleIm</item>
+        <item name="android:windowBackground">@color/window_color_dark</item>
+    </style>
+
+    <style name="Theme.NotrikaMusic.FollowSystem" parent="Theme.NotrikaMusic.Base.Adaptive">
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSharedElementsUseOverlay">false</item>
+        <item name="android:textViewStyle">@style/TextViewStyleIm</item>
+        <item name="android:windowBackground">@color/window_color</item>
+    </style>
+
+    <style name="Theme.NotrikaMusic.Notification" parent="@android:style/TextAppearance.Material.Notification" />
+
+    <style name="Theme.NotrikaMusic.Notification.Title" parent="@android:style/TextAppearance.Material.Notification.Title" />
+
+    <style name="MusicProgressSlider" parent="MusicProgressSliderParent">
+        <item name="android:padding">0dp</item>
+    </style>
+
+</resources>
